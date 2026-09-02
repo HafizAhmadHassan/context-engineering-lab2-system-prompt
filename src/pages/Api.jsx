@@ -55,14 +55,16 @@ const providers = [
     icon: "⚡",
     note: "Entire catalog is free with rate limits — no credit card required.",
     free: [
-      { id: "llama-3.1-8b-instant", label: "Llama 3.1 8B Instant", price: "Free" },
-      { id: "llama-3.3-70b-versatile", label: "Llama 3.3 70B Versatile", price: "Free" },
       { id: "openai/gpt-oss-120b", label: "GPT-OSS 120B", price: "Free" },
       { id: "openai/gpt-oss-20b", label: "GPT-OSS 20B", price: "Free" },
-      { id: "qwen/qwen3-32b", label: "Qwen3 32B", price: "Free" },
+      { id: "openai/gpt-oss-safeguard-20b", label: "GPT-OSS Safeguard 20B", price: "Free" },
+      { id: "qwen/qwen3.8-27b", label: "Qwen3.8 27B", price: "Free" },
+      { id: "qwen/qwen3.6-27b", label: "Qwen3.6 27B", price: "Free" },
+      { id: "groq/compound", label: "Compound", price: "Free" },
+      { id: "groq/compound-mini", label: "Compound Mini", price: "Free" },
     ],
     pro: [],
-    recommendation: "Llama 3.3 70B Versatile — best quality in Groq's free catalog.",
+    recommendation: "GPT-OSS 120B — best quality in Groq's current free catalog.",
   },
 ];
 

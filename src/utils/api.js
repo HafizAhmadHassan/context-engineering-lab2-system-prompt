@@ -37,7 +37,7 @@ const DEFAULT_MODELS = {
   openai: "gpt-4o-mini",
   anthropic: "claude-haiku-4-5",
   google: "gemini-2.5-flash",
-  groq: "llama-3.3-70b-versatile",
+  groq: "openai/gpt-oss-120b",
 };
 
 export function getApiConfig() {
